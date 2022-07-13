@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.forgotpass.ForgotPassFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:background="@drawable/admin_rounded_corers">
+
+            <TextView
+                android:id="@+id/text_forgot_pass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="monospace"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView198"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="128dp"
+                android:fontFamily="monospace"
+                android:text="@string/signup_email"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/editText_forgot_email"
+                android:layout_width="219dp"
+                android:layout_height="42dp"
+                android:layout_marginStart="52dp"
+                android:layout_marginTop="120dp"
+                android:layout_marginEnd="43dp"
+                android:ems="10"
+                android:inputType="textEmailAddress"
+                android:theme="@style/MyEditTextTheme"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/textView198"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView199"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="57dp"
+                android:fontFamily="monospace"
+                android:text="@string/signup_parola"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView198" />
+
+            <EditText
+                android:id="@+id/editText_forgot_pass"
+                android:layout_width="219dp"
+                android:layout_height="0dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="42dp"
+                android:layout_marginEnd="42dp"
+                android:ems="10"
+                android:inputType="textPassword"
+                android:theme="@style/MyEditTextTheme"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/textView199"
+                app:layout_constraintTop_toBottomOf="@+id/editText_forgot_email" />
+
+            <TextView
+                android:id="@+id/textView200"
+                android:layout_width="111dp"
+                android:layout_height="0dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="41dp"
+                android:fontFamily="monospace"
+                android:text="@string/signup_confparola"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView199" />
+
+            <EditText
+                android:id="@+id/editText_forgot_cpass"
+                android:layout_width="219dp"
+                android:layout_height="42dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="47dp"
+                android:layout_marginEnd="41dp"
+                android:ems="10"
+                android:inputType="textPassword"
+                android:theme="@style/MyEditTextTheme"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/textView200"
+                app:layout_constraintTop_toBottomOf="@+id/editText_forgot_pass" />
+
+            <Button
+                android:id="@+id/button_reset_pass"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_marginStart="200dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="44dp"
+                android:backgroundTint="@color/button"
+                android:fontFamily="monospace"
+                android:text="@string/reset_password_button"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/editText_forgot_cpass" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

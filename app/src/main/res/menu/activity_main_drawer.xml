@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_home"
+            android:title="@string/menu_home" />
+
+        <item
+            android:id="@+id/nav_rules"
+            android:icon="@drawable/ic_fisrules"
+            android:title="@string/menu_rules" />
+        <item
+            android:id="@+id/nav_slopes"
+            android:icon="@drawable/ic_skislopes"
+            android:title="@string/menu_slopes" />
+        <item
+            android:id="@+id/nav_chairlifts"
+            android:icon="@drawable/ic_chairlifts"
+            android:title="@string/menu_chairlifts" />
+        <item
+            android:id="@+id/nav_passes"
+            android:icon="@drawable/ic_skipass"
+            android:title="@string/menu_passes" />
+        <item
+            android:id="@+id/nav_rentals"
+            android:icon="@drawable/ic_skischool"
+            android:title="@string/menu_rentals" />
+        <item
+            android:id="@+id/nav_hotels"
+            android:icon="@drawable/ic_localhotel"
+            android:title="@string/menu_hotels" />
+
+    </group>
+</menu>

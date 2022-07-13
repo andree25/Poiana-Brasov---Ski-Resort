@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:rotationX="0"
+    android:background="@drawable/slopes_background"
+    tools:context=".ui.slopes.SlopesFragment">
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/text_slopes"
+                android:layout_width="match_parent"
+                android:layout_height="41dp"
+                android:fontFamily="monospace"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display4"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="246dp">
+
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="416dp"
+                    android:layout_height="26dp"
+                    android:text="@string/slFrag_ruia"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageButton
+                    android:id="@+id/imageButton6"
+                    style="@style/Widget.AppCompat.ImageButton"
+                    android:layout_width="276dp"
+                    android:layout_height="175dp"
+                    android:layout_marginStart="67dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="68dp"
+                    android:layout_marginBottom="16dp"
+                    android:backgroundTint="#B4CCE1"
+                    android:contentDescription="@string/slFrag_ruia"
+                    android:onClick="browser1"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/img_butt_slopes_fragment"
+                    android:visibility="visible"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="OnClick" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="246dp">
+
+                <ImageButton
+                    android:id="@+id/imageButton9"
+                    android:layout_width="276dp"
+                    android:layout_height="175dp"
+                    android:layout_marginStart="67dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="68dp"
+                    android:layout_marginBottom="16dp"
+                    android:backgroundTint="#B4CCE1"
+                    android:contentDescription="@string/slFrag_cabKanzel"
+                    android:onClick="browser2"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/kanzel_cab_slfrg"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.512"
+                    tools:ignore="OnClick" />
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="412dp"
+                    android:layout_height="27dp"
+                    android:layout_marginTop="1dp"
+                    android:text="@string/slFrag_cabKanzel"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="246dp">
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="408dp"
+                    android:layout_height="27dp"
+                    android:layout_marginEnd="3dp"
+                    android:text="@string/slFrag_gondKanzel"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+
+                    android:textSize="20sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageButton
+                    android:id="@+id/imageButton10"
+                    android:layout_width="276dp"
+                    android:layout_height="175dp"
+                    android:layout_marginStart="67dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="68dp"
+                    android:layout_marginBottom="16dp"
+                    android:backgroundTint="#B4CCE1"
+                    android:contentDescription="@string/slFrag_gondKanzel"
+                    android:onClick="browser3"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/kanzel_gond_slfrg"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="OnClick" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="246dp">
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="408dp"
+                    android:layout_height="27dp"
+                    android:layout_marginStart="1dp"
+                    android:layout_marginEnd="2dp"
+                    android:text="@string/slFrag_subtSos"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageButton
+                    android:id="@+id/imageButton11"
+                    android:layout_width="276dp"
+                    android:layout_height="175dp"
+                    android:layout_marginStart="67dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="68dp"
+                    android:layout_marginBottom="16dp"
+                    android:backgroundTint="#B4CCE1"
+                    android:contentDescription="@string/slFrag_subtSos"
+                    android:onClick="browser4"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/subtelef_sosire_slfrg"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="OnClick" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="246dp">
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="409dp"
+                    android:layout_height="27dp"
+                    android:layout_marginEnd="2dp"
+                    android:text="@string/slFrag_subt"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageButton
+                    android:id="@+id/imageButton12"
+                    android:layout_width="276dp"
+                    android:layout_height="175dp"
+                    android:layout_marginStart="67dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="68dp"
+                    android:layout_marginBottom="16dp"
+                    android:backgroundTint="#B4CCE1"
+                    android:contentDescription="@string/slFrag_subt"
+                    android:onClick="browser5"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/subteleferic_slfr"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="OnClick" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="246dp">
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="407dp"
+                    android:layout_height="28dp"
+                    android:layout_marginEnd="3dp"
+                    android:text="@string/slFrag_braduSus"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageButton
+                    android:id="@+id/imageButton"
+                    android:layout_width="276dp"
+                    android:layout_height="175dp"
+                    android:layout_marginStart="67dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="68dp"
+                    android:layout_marginBottom="16dp"
+                    android:backgroundTint="#B4CCE1"
+                    android:contentDescription="@string/slFrag_braduSus"
+                    android:scaleType="centerCrop"
+                    android:onClick="browser6"
+                    android:src="@drawable/bradu_sus_slfrg"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="OnClick" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="246dp">
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="410dp"
+                    android:layout_height="29dp"
+                    android:text="@string/slFrag_braduJos"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageButton
+                    android:id="@+id/imageButton2"
+                    android:layout_width="276dp"
+                    android:layout_height="175dp"
+                    android:layout_marginStart="67dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="68dp"
+                    android:layout_marginBottom="16dp"
+                    android:backgroundTint="#B4CCE1"
+                    android:onClick="browser7"
+                    android:contentDescription="@string/slFrag_braduJos"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/bradu_jos_slfrg"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="OnClick" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="246dp">
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="403dp"
+                    android:layout_height="32dp"
+                    android:layout_marginEnd="4dp"
+                    android:text="@string/slFrag_gondRuia"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageButton
+                    android:id="@+id/imageButton3"
+                    android:layout_width="276dp"
+                    android:layout_height="175dp"
+                    android:layout_marginStart="67dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="68dp"
+                    android:layout_marginBottom="16dp"
+                    android:backgroundTint="#B4CCE1"
+                    android:onClick="browser8"
+                    android:contentDescription="@string/slFrag_gondRuia"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/gond_ruia_slfrg"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="OnClick" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

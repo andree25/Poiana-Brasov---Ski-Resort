@@ -1,0 +1,1255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hotels_background"
+    tools:context=".ui.hotels.HotelsFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text_hotels"
+                android:layout_width="match_parent"
+                android:layout_height="53dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:fontFamily="monospace"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:elevation="5dp" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="186dp"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/hotel_text_nume1"
+                            android:layout_width="match_parent"
+                            android:layout_height="20dp"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginTop="3dp"
+                            android:fontFamily="monospace"
+                            android:text="@string/hot_denisa"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textStyle="bold"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <ImageView
+                            android:id="@+id/hotel_imagine_hotel1"
+                            android:layout_width="180dp"
+                            android:layout_height="150dp"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginEnd="1dp"
+                            android:contentDescription="@string/hot_denisa"
+                            android:src="@drawable/frghot_denisabutique5s"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/hotel_text_nume1" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/hotel_image_stelute1"
+                            android:layout_width="96dp"
+                            android:layout_height="20dp"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginTop="3dp"
+                            android:contentDescription="@string/stele"
+                            android:src="@drawable/stars5"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/hotel_text_descriere1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginTop="15dp"
+                            android:text="@string/hot_denisa_text"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/hotel_image_stelute1" />
+
+                        <Button
+                            android:id="@+id/hotel_buton1"
+                            android:layout_width="match_parent"
+                            android:layout_height="34dp"
+                            android:layout_marginStart="28dp"
+                            android:layout_marginTop="18dp"
+                            android:layout_marginEnd="4dp"
+                            android:backgroundTint="@color/button"
+                            android:onClick="browserHotDen"
+                            android:text="@string/button"
+                            android:textSize="12sp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/hotel_text_descriere1"
+                            tools:ignore="OnClick" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </LinearLayout>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:elevation="5dp" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="186dp"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/hotel_text_nume2"
+                            android:layout_width="match_parent"
+                            android:layout_height="20dp"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginTop="3dp"
+                            android:fontFamily="monospace"
+                            android:text="@string/hot_alpin"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textStyle="bold"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <ImageView
+                            android:id="@+id/hotel_imagine_hotel2"
+                            android:layout_width="180dp"
+                            android:layout_height="150dp"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginEnd="1dp"
+                            android:contentDescription="@string/hot_alpin"
+                            android:src="@drawable/frghot_alpin4s"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/hotel_text_nume2" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <Button
+                            android:id="@+id/hotel_buton2"
+                            android:layout_width="match_parent"
+                            android:layout_height="34dp"
+                            android:layout_marginStart="28dp"
+                            android:layout_marginTop="18dp"
+                            android:layout_marginEnd="4dp"
+                            android:backgroundTint="@color/button"
+                            android:onClick="browserHotAlp"
+                            android:text="@string/button"
+                            android:textSize="12sp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/hotel_text_descriere2"
+                            tools:ignore="OnClick" />
+
+                        <ImageView
+                            android:id="@+id/hotel_image_stelute2"
+                            android:layout_width="96dp"
+                            android:layout_height="20dp"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginTop="3dp"
+                            android:contentDescription="@string/stele"
+                            android:src="@drawable/stars4"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/hotel_text_descriere2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginTop="15dp"
+                            android:text="@string/hot_alpin_text"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/hotel_image_stelute2" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </LinearLayout>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:elevation="5dp" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="186dp"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/hotel_imagine_hotel3"
+                            android:layout_width="180dp"
+                            android:layout_height="150dp"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginEnd="1dp"
+                            android:contentDescription="@string/hot_ana"
+                            android:src="@drawable/frghot_ana4s"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/hotel_text_nume3" />
+
+                        <TextView
+                            android:id="@+id/hotel_text_nume3"
+                            android:layout_width="match_parent"
+                            android:layout_height="20dp"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginTop="3dp"
+                            android:fontFamily="monospace"
+                            android:text="@string/hot_ana"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textStyle="bold"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/hotel_image_stelute3"
+                            android:layout_width="96dp"
+                            android:layout_height="20dp"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginTop="3dp"
+                            android:contentDescription="@string/stele"
+                            android:src="@drawable/stars4"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/hotel_text_descriere3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginTop="15dp"
+                            android:text="@string/hot_ana_text"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/hotel_image_stelute3" />
+
+                        <Button
+                            android:id="@+id/hotel_buton3"
+                            android:layout_width="match_parent"
+                            android:layout_height="34dp"
+                            android:layout_marginStart="28dp"
+                            android:layout_marginTop="18dp"
+                            android:layout_marginEnd="4dp"
+                            android:backgroundTint="@color/button"
+                            android:onClick="browserHotAna"
+                            android:text="@string/button"
+                            android:textSize="12sp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/hotel_text_descriere3"
+                            tools:ignore="OnClick" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </LinearLayout>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:elevation="5dp" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="186dp"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/hotel_text_nume4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginTop="3dp"
+                            android:fontFamily="monospace"
+                            android:text="@string/hot_aurelius"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textStyle="bold"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <ImageView
+                            android:id="@+id/hotel_imagine_hotel4"
+                            android:layout_width="180dp"
+                            android:layout_height="150dp"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginTop="3dp"
+                            android:layout_marginEnd="1dp"
+                            android:contentDescription="@string/hot_aurelius"
+                            android:src="@drawable/frghot_aurelius4s"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/hotel_text_nume4" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/hotel_text_descriere4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginTop="15dp"
+                            android:text="@string/hot_aurelius_text"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/hotel_image_stelute4" />
+
+                        <ImageView
+                            android:id="@+id/hotel_image_stelute4"
+                            android:layout_width="96dp"
+                            android:layout_height="20dp"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginTop="3dp"
+                            android:contentDescription="@string/stele"
+                            android:src="@drawable/stars4"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <Button
+                            android:id="@+id/hotel_buton4"
+                            android:layout_width="match_parent"
+                            android:layout_height="34dp"
+                            android:layout_marginStart="28dp"
+                            android:layout_marginTop="18dp"
+                            android:layout_marginEnd="4dp"
+                            android:backgroundTint="@color/button"
+                            android:onClick="browserHotAur"
+                            android:text="@string/button"
+                            android:textSize="12sp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/hotel_text_descriere4"
+                            tools:ignore="OnClick" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </LinearLayout>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:elevation="5dp" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="186dp"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/hotel_text_nume5"
+                            android:layout_width="match_parent"
+                            android:layout_height="20dp"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginTop="3dp"
+                            android:fontFamily="monospace"
+                            android:text="@string/hot_dracula"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textStyle="bold"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <ImageView
+                            android:id="@+id/hotel_imagine_hotel5"
+                            android:layout_width="180dp"
+                            android:layout_height="150dp"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginEnd="1dp"
+                            android:contentDescription="@string/hot_dracula"
+                            android:src="@drawable/frghot_dracula4s"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/hotel_text_nume5" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/hotel_image_stelute5"
+                            android:layout_width="96dp"
+                            android:layout_height="20dp"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginTop="3dp"
+                            android:contentDescription="@string/stele"
+                            android:src="@drawable/stars4"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <Button
+                            android:id="@+id/hotel_buton5"
+                            android:layout_width="match_parent"
+                            android:layout_height="34dp"
+                            android:layout_marginStart="28dp"
+                            android:layout_marginTop="18dp"
+                            android:layout_marginEnd="4dp"
+                            android:backgroundTint="@color/button"
+                            android:onClick="browserHotDracula"
+                            android:text="@string/button"
+                            android:textSize="12sp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/hotel_text_descriere5"
+                            tools:ignore="OnClick" />
+
+                        <TextView
+                            android:id="@+id/hotel_text_descriere5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginTop="15dp"
+                            android:text="@string/hot_dracula_text"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/hotel_image_stelute5" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </LinearLayout>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:elevation="5dp" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="186dp"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/hotel_text_nume6"
+                            android:layout_width="match_parent"
+                            android:layout_height="20dp"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginTop="3dp"
+                            android:fontFamily="monospace"
+                            android:text="@string/hot_escalade"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textStyle="bold"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <ImageView
+                            android:id="@+id/hotel_imagine_hotel6"
+                            android:layout_width="180dp"
+                            android:layout_height="150dp"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginEnd="1dp"
+                            android:contentDescription="@string/hot_escalade"
+                            android:src="@drawable/frghot_escalade4s"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/hotel_text_nume6" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/hotel_text_descriere6"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginTop="15dp"
+                            android:text="@string/hot_escalade_text"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/hotel_image_stelute6" />
+
+                        <ImageView
+                            android:id="@+id/hotel_image_stelute6"
+                            android:layout_width="96dp"
+                            android:layout_height="20dp"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginTop="3dp"
+                            android:contentDescription="@string/stele"
+                            android:src="@drawable/stars4"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <Button
+                            android:id="@+id/hotel_buton6"
+                            android:layout_width="match_parent"
+                            android:layout_height="34dp"
+                            android:layout_marginStart="28dp"
+                            android:layout_marginTop="18dp"
+                            android:layout_marginEnd="4dp"
+                            android:backgroundTint="@color/button"
+                            android:onClick="browserHotEsc"
+                            android:text="@string/button"
+                            android:textSize="12sp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/hotel_text_descriere6"
+                            tools:ignore="OnClick" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </LinearLayout>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:elevation="5dp" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="186dp"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/hotel_text_nume7"
+                            android:layout_width="match_parent"
+                            android:layout_height="20dp"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginTop="3dp"
+                            android:fontFamily="monospace"
+                            android:text="@string/hot_miruna"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textStyle="bold"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <ImageView
+                            android:id="@+id/hotel_imagine_hotel7"
+                            android:layout_width="180dp"
+                            android:layout_height="150dp"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginEnd="1dp"
+                            android:contentDescription="@string/hot_miruna"
+                            android:src="@drawable/frghot_miruna4s"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/hotel_text_nume7" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/hotel_image_stelute7"
+                            android:layout_width="96dp"
+                            android:layout_height="20dp"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginTop="3dp"
+                            android:contentDescription="@string/stele"
+                            android:src="@drawable/stars4"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <Button
+                            android:id="@+id/hotel_buton7"
+                            android:layout_width="match_parent"
+                            android:layout_height="34dp"
+                            android:layout_marginStart="28dp"
+                            android:layout_marginTop="18dp"
+                            android:layout_marginEnd="4dp"
+                            android:backgroundTint="@color/button"
+                            android:onClick="browserHotMir"
+                            android:text="@string/button"
+                            android:textSize="12sp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/hotel_text_descriere7"
+                            tools:ignore="OnClick" />
+
+                        <TextView
+                            android:id="@+id/hotel_text_descriere7"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginTop="15dp"
+                            android:text="@string/hot_miruna_text"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/hotel_image_stelute7" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </LinearLayout>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:elevation="5dp" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="186dp"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/hotel_text_nume8"
+                            android:layout_width="match_parent"
+                            android:layout_height="20dp"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginTop="3dp"
+                            android:fontFamily="monospace"
+                            android:text="@string/hot_orizont"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textStyle="bold"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <ImageView
+                            android:id="@+id/hotel_imagine_hotel8"
+                            android:layout_width="180dp"
+                            android:layout_height="150dp"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginEnd="1dp"
+                            android:contentDescription="@string/hot_orizont"
+                            android:src="@drawable/frghot_orizont4s"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/hotel_text_nume8" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/hotel_text_descriere8"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginTop="15dp"
+                            android:text="@string/hot_orizont_text"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@+id/hotel_buton8"
+                            app:layout_constraintTop_toBottomOf="@+id/hotel_image_stelute8" />
+
+                        <Button
+                            android:id="@+id/hotel_buton8"
+                            android:layout_width="match_parent"
+                            android:layout_height="34dp"
+                            android:layout_marginStart="28dp"
+                            android:layout_marginTop="18dp"
+                            android:layout_marginEnd="4dp"
+                            android:backgroundTint="@color/button"
+                            android:onClick="browserHotOri"
+                            android:text="@string/button"
+                            android:textSize="12sp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/hotel_text_descriere8"
+                            tools:ignore="OnClick" />
+
+                        <ImageView
+                            android:id="@+id/hotel_image_stelute8"
+                            android:layout_width="96dp"
+                            android:layout_height="20dp"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginTop="3dp"
+                            android:contentDescription="@string/stele"
+                            android:src="@drawable/stars4"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </LinearLayout>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:elevation="5dp" />
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="186dp"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/hotel_text_nume9"
+                            android:layout_width="match_parent"
+                            android:layout_height="20dp"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginEnd="1dp"
+                            android:fontFamily="monospace"
+                            android:text="@string/hot_rizzo"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textStyle="bold"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <ImageView
+                            android:id="@+id/hotel_imagine_hotel9"
+                            android:layout_width="180dp"
+                            android:layout_height="150dp"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginTop="3dp"
+                            android:contentDescription="@string/hot_rizzo"
+                            android:src="@drawable/frghot_rizzo4s"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/hotel_text_nume9" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/hotel_image_stelute9"
+                            android:layout_width="96dp"
+                            android:layout_height="20dp"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginTop="3dp"
+                            android:contentDescription="@string/stele"
+                            android:src="@drawable/stars4"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/hotel_text_descriere9"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginTop="15dp"
+                            android:text="@string/hot_rizzo_text"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/hotel_image_stelute9" />
+
+                        <Button
+                            android:id="@+id/hotel_buton9"
+                            android:layout_width="match_parent"
+                            android:layout_height="34dp"
+                            android:layout_marginStart="28dp"
+                            android:layout_marginTop="18dp"
+                            android:layout_marginEnd="4dp"
+                            android:backgroundTint="@color/button"
+                            android:onClick="browserHotRizz"
+                            android:text="@string/button"
+                            android:textSize="12sp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/hotel_text_descriere9"
+                            tools:ignore="OnClick" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </LinearLayout>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:elevation="5dp" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="186dp"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/hotel_text_nume10"
+                            android:layout_width="match_parent"
+                            android:layout_height="20dp"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginTop="5dp"
+                            android:fontFamily="monospace"
+                            android:text="@string/hot_teleferic"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textStyle="bold"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <ImageView
+                            android:id="@+id/hotel_imagine_hotel10"
+                            android:layout_width="180dp"
+                            android:layout_height="150dp"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginEnd="1dp"
+                            android:contentDescription="@string/hot_teleferic"
+                            android:src="@drawable/frghot_telefericgrand4s"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/hotel_text_nume10" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/hotel_image_stelute10"
+                            android:layout_width="96dp"
+                            android:layout_height="20dp"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginTop="3dp"
+                            android:contentDescription="@string/stele"
+                            android:src="@drawable/stars4"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/hotel_text_descriere10"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginTop="15dp"
+                            android:text="@string/hot_teleferic_text"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/hotel_image_stelute10" />
+
+                        <Button
+                            android:id="@+id/hotel_buton10"
+                            android:layout_width="match_parent"
+                            android:layout_height="34dp"
+                            android:layout_marginStart="28dp"
+                            android:layout_marginTop="18dp"
+                            android:layout_marginEnd="4dp"
+                            android:backgroundTint="@color/button"
+                            android:onClick="browserHotTele"
+                            android:text="@string/button"
+                            android:textSize="12sp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/hotel_text_descriere10"
+                            tools:ignore="OnClick" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </LinearLayout>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:elevation="5dp" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="186dp"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/hotel_text_nume11"
+                            android:layout_width="match_parent"
+                            android:layout_height="20dp"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginTop="3dp"
+                            android:fontFamily="monospace"
+                            android:text="@string/hot_crisalpin"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textStyle="bold"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <ImageView
+                            android:id="@+id/hotel_imagine_hotel11"
+                            android:layout_width="180dp"
+                            android:layout_height="150dp"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginEnd="1dp"
+                            android:contentDescription="@string/hot_crisalpin"
+                            android:src="@drawable/frghot_crisalpin3s"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/hotel_text_nume11" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/hotel_image_stelute11"
+                            android:layout_width="96dp"
+                            android:layout_height="20dp"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginTop="3dp"
+                            android:contentDescription="@string/stele"
+                            android:src="@drawable/stars3"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/hotel_text_descriere11"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginTop="15dp"
+                            android:text="@string/hot_crisalpin_text"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/hotel_image_stelute11" />
+
+                        <Button
+                            android:id="@+id/hotel_buton11"
+                            android:layout_width="match_parent"
+                            android:layout_height="34dp"
+                            android:layout_marginStart="28dp"
+                            android:layout_marginTop="18dp"
+                            android:layout_marginEnd="4dp"
+                            android:backgroundTint="@color/button"
+                            android:onClick="browserHotCris"
+                            android:text="@string/button"
+                            android:textSize="12sp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/hotel_text_descriere11"
+                            tools:ignore="OnClick" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </LinearLayout>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:elevation="5dp" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="186dp"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/hotel_text_nume12"
+                            android:layout_width="match_parent"
+                            android:layout_height="20dp"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginTop="3dp"
+                            android:fontFamily="monospace"
+                            android:text="@string/hot_ruia"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textStyle="bold"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <ImageView
+                            android:id="@+id/hotel_imagine_hotel12"
+                            android:layout_width="180dp"
+                            android:layout_height="150dp"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginEnd="1dp"
+                            android:contentDescription="@string/hot_ruia"
+                            android:src="@drawable/frghot_ruia3s"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/hotel_text_nume12" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <Button
+                            android:id="@+id/hotel_buton12"
+                            android:layout_width="match_parent"
+                            android:layout_height="34dp"
+                            android:layout_marginStart="28dp"
+                            android:layout_marginTop="18dp"
+                            android:layout_marginEnd="4dp"
+                            android:backgroundTint="@color/button"
+                            android:onClick="browserHotRuia"
+                            android:text="@string/button"
+                            android:textAlignment="textStart"
+                            android:textSize="12sp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/hotel_text_descriere12"
+                            tools:ignore="OnClick" />
+
+                        <TextView
+                            android:id="@+id/hotel_text_descriere12"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginTop="15dp"
+                            android:text="@string/hot_ruia_text"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/hotel_image_stelute12" />
+
+                        <ImageView
+                            android:id="@+id/hotel_image_stelute12"
+                            android:layout_width="96dp"
+                            android:layout_height="20dp"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginTop="3dp"
+                            android:contentDescription="@string/stele"
+                            android:src="@drawable/stars3"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </LinearLayout>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:elevation="5dp" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="186dp"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/hotel_text_nume13"
+                            android:layout_width="match_parent"
+                            android:layout_height="20dp"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginTop="3dp"
+                            android:fontFamily="monospace"
+                            android:text="@string/hot_vinga"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textStyle="bold"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <ImageView
+                            android:id="@+id/hotel_imagine_hotel13"
+                            android:layout_width="180dp"
+                            android:layout_height="150dp"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginEnd="1dp"
+                            android:contentDescription="@string/hot_vinga"
+                            android:src="@drawable/frghot_vinga3s"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/hotel_text_nume13" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/hotel_text_descriere13"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginTop="15dp"
+                            android:text="@string/hot_vinga_text"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/hotel_image_stelute13" />
+
+                        <Button
+                            android:id="@+id/hotel_buton13"
+                            android:layout_width="match_parent"
+                            android:layout_height="34dp"
+                            android:layout_marginStart="28dp"
+                            android:layout_marginTop="18dp"
+                            android:layout_marginEnd="4dp"
+                            android:backgroundTint="@color/button"
+                            android:onClick="browserHotVing"
+                            android:text="@string/button"
+                            android:textSize="12sp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/hotel_text_descriere13"
+                            tools:ignore="OnClick" />
+
+                        <ImageView
+                            android:id="@+id/hotel_image_stelute13"
+                            android:layout_width="96dp"
+                            android:layout_height="20dp"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginTop="3dp"
+                            android:contentDescription="@string/stele"
+                            android:src="@drawable/stars3"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </LinearLayout>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:elevation="5dp" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

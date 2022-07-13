@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="8dp"
+    android:layout_marginStart="8dp"
+    android:layout_marginTop="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/res_ctype"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:text="ctype"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+        <Space
+            android:id="@+id/resspace1"
+            android:layout_width="6dp"
+            android:layout_height="10dp"
+            android:layout_toEndOf="@+id/res_ctype"/>
+
+        <TextView
+            android:id="@+id/res_aprice"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:layout_toEndOf="@+id/resspace1"
+            android:text="aprice"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+        <Space
+            android:id="@+id/resspace2"
+            android:layout_width="6dp"
+            android:layout_height="10dp"
+            android:layout_toEndOf="@+id/res_aprice"/>
+
+        <TextView
+            android:id="@+id/res_kprice"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:layout_toEndOf="@+id/resspace2"
+            android:text="kprice"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+        <Space
+            android:id="@+id/resspace3"
+            android:layout_width="6dp"
+            android:layout_height="10dp"
+            android:layout_toEndOf="@+id/res_kprice"/>
+
+        <TextView
+            android:id="@+id/res_quant"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:layout_toEndOf="@+id/resspace3"
+            android:text="qty"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,377 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Poiana Brasov-Ski Resort</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Poiana Brasov</string>
+    <string name="nav_header_subtitle">Ski Resort</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_rules">The FIS Rules</string>
+    <string name="menu_weather">Weather</string>
+    <string name="menu_slopes">Slopes Information</string>
+    <string name="menu_chairlifts">Maps</string>
+    <string name="menu_passes">Ski Passes</string>
+    <string name="menu_rentals">Ski Schools and Rentals</string>
+    <string name="menu_hotels">Hotels</string>
+    <string name="menu_chat">Chat</string>
+    <string name="menu_login">Profile</string>
+    <string name="menu_signup">Sign up</string>
+    <string name="menu_reserv">Reservations</string>
+    <string name="menu_points">Points</string>
+    <string name="menu_subscriptions">Subscriptions</string>
+    <string name="menu_admin">Administrator</string>
+    <string name="menu_password">Reset your password</string>
+
+
+
+
+    //fis rules fragment
+    //imagine
+    <string name="rulFragment_photo">FIS RULES</string>
+    //texte
+    <string name="rulFragment_titlu1">  1. Respect for others </string>
+    <string name="rulFragment_text1">      A skier or snowboarder must behave in such a way that he does not endanger or prejudice others. </string>
+
+    <string name="rulFragment_titlu2">  2. Control of speed and skiing or snowboarding</string>
+    <string name="rulFragment_text2">      A skier or snowboarder must move in control. He must adapt his speed and manner of skiing or snowboarding to his personal ability and to the prevailing conditions of terrain, snow and weather as well as to the density of traffic.</string>
+
+    <string name="rulFragment_titlu3">  3. Choice of route</string>
+    <string name="rulFragment_text3">      A skier or snowboarder coming from behind must choose his route in such a way that he does not endanger skiers or snowboarders ahead.</string>
+
+    <string name="rulFragment_titlu4">  4. Overtaking</string>
+    <string name="rulFragment_text4">      A skier or snowboarder may overtake another skier or snowboarder above or below and to the right or to the left provided that he leaves enough space for the overtaken skier or snowboarder to make any voluntary or involuntary movement.</string>
+
+    <string name="rulFragment_titlu5">  5. Entering, starting and moving upwards</string>
+    <string name="rulFragment_text5">      A skier or snowboarder entering a marked run, starting again after stopping or moving upwards on the slopes must look up and down the slopes that he can do so without endangering himself or others.</string>
+
+    <string name="rulFragment_titlu6">  6. Stopping on the piste</string>
+    <string name="rulFragment_text6">      Unless absolutely necessary, a skier or snowboarder must avoid stopping on the piste in narrow places or where visibility is restricted. After a fall in such a place, a skier or snowboarder must move clear of the piste as soon as possible.</string>
+
+    <string name="rulFragment_titlu7">  7. Climbing and descending on foot</string>
+    <string name="rulFragment_text7">      A skier or snowboarder either climbing or descending on foot must keep to the side of the piste.</string>
+
+    <string name="rulFragment_titlu8">  8. Respect for signs and markings</string>
+    <string name="rulFragment_text8">      A skier or snowboarder must respect all signs and markings.</string>
+
+    <string name="rulFragment_titlu9">  9. Assistance </string>
+    <string name="rulFragment_text9">      At accidents, every skier or snowboarder is duty bound to assist.  </string>
+
+    <string name="rulFragment_titlu10">  10. Identification </string>
+    <string name="rulFragment_text10">     Every skier or snowboarder and witness, whether a responsible party or not, must exchange names and addresses following an accident.</string>
+
+
+    //chairlifts fragment
+
+    //imagini:
+    <string name="chFragment_map">Map</string>
+    <string name="chFragment_chair">Chairlifts</string>
+    <string name="chFragment_others">Others</string>
+    <string name="chFragment_slopes">Slopes</string>
+
+    //texte:
+    <string name="chFragment_chairT">Chairlifts:</string>
+    <string name="chFragment_othersT">Others:</string>
+    <string name="chFragment_slopesT">Slopes:</string>
+
+
+    //slopes fragment
+    //imagine:
+    <string name="slFragment_img">Webcams</string>
+
+    //text
+    <string name="slFrag_ruia">Live from Ruia Slope: </string>
+    <string name="slFrag_cabKanzel">Live from the cable: </string>
+    <string name="slFrag_gondKanzel">Live from the gondola: </string>
+    <string name="slFrag_subtSos">Live from the end of Subteleferic Slope: </string>
+    <string name="slFrag_subt">Live from the Subteleferic Slope: </string>
+    <string name="slFrag_braduSus">Live from the Upper Bradu Slope:</string>
+    <string name="slFrag_braduJos">Live from the Bradu Slope:</string>
+    <string name="slFrag_gondRuia">Live with the Gondolas:</string>
+
+
+    //hotels fragment
+    //nume hotele
+    <string name="hot_alpin">Alpin Resort Hotel</string>
+    <string name="hot_ana">Ana Hotels Sport</string>
+    <string name="hot_aurelius">Aurelius Emperor of the Romanians Hotel</string>
+    <string name="hot_crisalpin">Crisalpin Hotel</string>
+    <string name="hot_denisa">Denisa Boutique Hotel</string>
+    <string name="hot_dracula">House of Dracula Hotel</string>
+    <string name="hot_escalade">Escalade Hotel</string>
+    <string name="hot_miruna">Miruna Hotel</string>
+    <string name="hot_orizont">Orizont Pension</string>
+    <string name="hot_rizzo">Rizzo Boutique Hotel</string>
+    <string name="hot_ruia">Ruia Hotel</string>
+    <string name="hot_teleferic">Teleferic Grand Hotel</string>
+    <string name="hot_vinga">Vinga House</string>
+
+    //buton
+    <string name="button">More Details...</string>
+
+    //descrieri
+    <string name="hot_denisa_text">At 200 metres from the ski slopes and the ski lift, Denisa Boutique Hotel features complimentary access to an indoor pool and a sauna.</string>
+    <string name="hot_alpin_text">At 10 minutes on foot from the ski slopes, Alpin Resort Hotel offers accommodation with complimentary access to a semi-Olympic pool.</string>
+    <string name="hot_ana_text">Offering elegant rooms, Ana Hotels Poiana Brasov, is located at the foot of the Postăvaru Mountain. </string>
+    <string name="hot_aurelius_text">Picturesquely located on the shore of Miorita Lake, in the mountain resort Poiana Brasov, the hotel offers stylish accommodation.</string>
+    <string name="hot_crisalpin_text">Located only 400 metres from the Bradul ski slope, in Poiana Brasov, Hotel Crisalpin offers accommodation with free WiFi.</string>
+    <string name="hot_dracula_text">Overlooking the Carpathian Mountains, this uniquely designed hotel in Poiana Brasov features a restaurant with a wine cellar and a modern spa area.</string>
+    <string name="hot_escalade_text">Hotel Escalade offers a spa including an indoor pool and sauna. All rooms are en-suite and come with a minibar and a TV.</string>
+    <string name="hot_miruna_text">Hotel New Belvedere is only 50 metres away from Poiana Braşov cable car and ski slope.</string>
+    <string name="hot_orizont_text">Pension Orizont is surrounded by lush nature in the centre of Poiana Brasov. The ski slopes are within 500 metres away.</string>
+    <string name="hot_rizzo_text">Only 20 metres from Poiana Brasov’s ice skating rink, this spa hotel features rooms and public areas with views of the surrounding woods.</string>
+    <string name="hot_ruia_text">Centrally located in Poiana Brașov and only 400 metres from Bradu Ski Slope, Hotel Ruia features spacious rooms with an à la carte restaurant.</string>
+    <string name="hot_teleferic_text">Set in Poiana Brasov resort, just 50 metres from the cable ski lift, Teleferic Grand Hotel offers panoramic mountain views and free WiFi.</string>
+    <string name="hot_vinga_text">Located in the centre of the Poiana Brasov Resort, Vinga House offers a sun terrace with a view of the Subteleferic ski slope.</string>
+
+    <string name="stele">stele</string>
+
+
+    //passes fragment
+    <string name="passes_subscriptions">Subscriptions</string>
+    <string name="passes_points">Points</string>
+    <string name="passes_cablecar">Cable car</string>
+
+    <string name="passes_col_cardType">CARD TYPE</string>
+    <string name="passes_col_Adults">ADULTS</string>
+    <string name="passes_col_kids">KIDS</string>
+    <string name="passes_col_qty">QUANTITY</string>
+
+    <string name="passes_col_Adults_ron">ADULTS \n(RON)</string>
+    <string name="passes_col_kids_ron">KIDS \n(RON)</string>
+
+    <string name="passes_row11"> From 11:00</string>
+    <string name="passes_row12">120 RON</string>
+    <string name="passes_row13"> 70 RON</string>
+
+    <string name="passes_row21">From 13:00</string>
+    <string name="passes_row22">90 RON</string>
+    <string name="passes_row23">50 RON</string>
+
+    <string name="passes_row31">From 14:00</string>
+    <string name="passes_row32">65 RON</string>
+    <string name="passes_row33">40 RON</string>
+
+    <string name="passes_row41">4 HOURS</string>
+    <string name="passes_row42">110 RON</string>
+    <string name="passes_row43">65 RON</string>
+
+    <string name="passes_row51">1 DAY</string>
+    <string name="passes_row52">150 RON</string>
+    <string name="passes_row53">85 RON</string>
+
+    <string name="passes_row61">2 DAYS</string>
+    <string name="passes_row62">240 RON</string>
+    <string name="passes_row63">130 RON</string>
+
+    <string name="passes_row71">3 DAYS</string>
+    <string name="passes_row72">340 RON</string>
+    <string name="passes_row73">180 RON</string>
+
+    <string name="passes_row81">4 DAYS</string>
+    <string name="passes_row82">420 RON</string>
+    <string name="passes_row83">220 RON</string>
+
+    <string name="passes_row91">5 DAYS</string>
+    <string name="passes_row92">500 RON</string>
+    <string name="passes_row93">260 RON</string>
+
+    <string name="passes_row101">6 DAYS</string>
+    <string name="passes_row102">570 RON</string>
+    <string name="passes_row103">300 RON</string>
+
+    <string name="passes_row111">10 DAYS</string>
+    <string name="passes_row112">1050 RON </string>
+    <string name="passes_row113">650 RON</string>
+
+    <string name="passes_row121">20 HOURS</string>
+    <string name="passes_row122">500 RON</string>
+    <string name="passes_row123">260 RON</string>
+
+    <string name="passes2_row11"> 10 POINTS</string>
+    <string name="passes2_row12">45 RON</string>
+    <string name="passes2_row13"> 25 RON</string>
+
+    <string name="passes2_row21">20 POINTS</string>
+    <string name="passes2_row22">80 RON</string>
+    <string name="passes2_row23">40 RON</string>
+
+    <string name="passes2_row31">30 POINTS</string>
+    <string name="passes2_row32">115 RON</string>
+    <string name="passes2_row33">60 RON</string>
+
+    <string name="passes2_row41">60 POINTS</string>
+    <string name="passes2_row42">200 RON</string>
+    <string name="passes2_row43">105 RON</string>
+
+    <string name="passes2_row51">80 POINTS</string>
+    <string name="passes2_row52">230 RON</string>
+    <string name="passes2_row53">135 RON</string>
+
+    <string name="passes2_row61">120 POINTS</string>
+    <string name="passes2_row62">330 RON</string>
+    <string name="passes2_row63">180 RON</string>
+
+    <string name="passes2_row71">240 POINTS</string>
+    <string name="passes2_row72">570 RON</string>
+    <string name="passes2_row73">300 RON</string>
+
+    <string name="passes_button">Book your season tickets</string>
+
+
+    <string name="passes3_row11"> Up</string>
+    <string name="passes3_row12">25 RON</string>
+    <string name="passes3_row13"> 15 RON</string>
+
+    <string name="passes3_row21">Up and Down</string>
+    <string name="passes3_row22">40 RON</string>
+    <string name="passes3_row23">20 RON</string>
+
+    <string name="passes3_row31">Down</string>
+    <string name="passes3_row32">25 RON</string>
+    <string name="passes3_row33">15 RON</string>
+
+    <string name="passes_actual">Date of Update: 22.11.2021</string>
+
+
+    //rentals fragment
+
+    <string name="rentals_rj">R&amp;J Ski School</string>
+    <string name="rentals_eden">Eden Ski &amp; Snowboard</string>
+    <string name="rentals_interski">Interski</string>
+    <string name="rentals_alpin">Alpin Ski Academy</string>
+    <string name="rentals_outdoor">OutdoorFun</string>
+
+    <string name="rentals_alpin_descr">Alpin SKi Academy groups a<br/> number of passionate and<br/> experienced ski instructors<br/> that offers unique experiences<br/> on snow.</string>
+    <string name="rentals_eden_descr">We are a team of professional<br/> ski and snowboard instructors,<br/> in love with winter, mountain<br/> and ski and snowboard.</string>
+    <string name="rentals_interski_descr">Interski is situated 50 meters<br/> away from the main ski lifts. <br/>We have rental equipment from<br/> the best brands in the skiing<br/> and snowboarding domain.</string>
+    <string name="rentals_outdoor_descr">We are a group of professional<br/> ski and snowboarding instructors,<br/> ready to share with you<br/> our experience and passion.</string>
+    <string name="rentals_rj_descr">The ski and snowboard school<br/> Poiana Brasov has a program <br/>for learning and improving skiing.</string>
+
+
+    //home fragment
+
+    <string name="home_title">Poiana Brasov</string>
+    <string name="home_title2">Ski Resort</string>
+    <string name="home_text">Log in to reserve your pass or chat with others</string>
+
+    <string name="home_username">Email:</string>
+    <string name="home_password">Password:</string>
+    <string name="home_register">Register \nnow</string>
+    <string name="home_or">||</string>
+    <string name="home_login_admin">Login as \nAdministrator</string>
+    <string name="home_login">Log In</string>
+    <string name="home_signup">Sign Up</string>
+    <string name="home_forgot">Forgot password?</string>
+
+    <string name="points_checkbox">Please check this if your card is for a Kid</string>
+
+
+    //login fragment
+    <string name="login_text">Your reservations:</string>
+    <string name="login_button">Make a new reservation</string>
+
+    //register fragment
+    <string name="signup_name">First name:</string>
+    <string name="signup_vorname">Last name:</string>
+    <string name="signup_email">Email:</string>
+    <string name="signup_tel">Phone:</string>
+    <string name="signup_parola">Password:</string>
+    <string name="signup_confparola">Confirm password:</string>
+
+    <string name="signup_musthave">Password must have at least 6 letters, 1 number and 1 upper case.</string>
+
+    <string name="signup_error_fname">Enter First Name!</string>
+    <string name="signup_error_lname">Enter Last Name!</string>
+    <string name="signup_error_email">Enter valid Email</string>
+    <string name="signup_error_phone">Enter Phone Number</string>
+    <string name="signup_error_machpassw">Password Does Not Matches</string>
+    <string name="reset_password_button">Reset Password</string>
+
+
+    //reservations fragment
+    <string name="reserv_text">What kind of passes do you want?</string>
+    <string name="reserv_chSubAd">Choose the type of subscription for adults</string>
+    <string name="reserv_chSubKid">Choose the type of subscription for kids</string>
+    <string name="reserv_chPassKid">Choose how many points you want for kids</string>
+    <string name="reserv_chPassAd">Choose how many points you want for adults</string>
+
+    <string name="reserv_text2">Choose the right option for you: </string>
+    <string name="reserv_text3">Get a subscription HERE</string>
+    <string name="reserv_text4">Login HERE to reserve your card!</string>
+    <string name="reserv_button1">Subscriptions</string>
+    <string name="reserv_button2">Points</string>
+
+
+
+    <string name="reserv_ad_subrscript1">11AM-4PM</string>
+    <string name="reserv_ad_subrscript2">1PM-4PM</string>
+    <string name="reserv_ad_subrscript3">2PM-4PM</string>
+    <string name="reserv_ad_subrscript4">4 Hours</string>
+    <string name="reserv_ad_subrscript5">1 DAY</string>
+    <string name="reserv_ad_subrscript6">2 DAYS</string>
+    <string name="reserv_ad_subrscript7">3 DAYS</string>
+    <string name="reserv_ad_subrscript8">4 DAYS</string>
+    <string name="reserv_ad_subrscript9">5 DAYS</string>
+    <string name="reserv_ad_subrscript10">6 DAYS</string>
+    <string name="reserv_ad_subrscript11">10 DAYS</string>
+    <string name="reserv_ad_subrscript12">20 Hours</string>
+
+    <string name="reserv_k_subrscript1">11AM-4PM</string>
+    <string name="reserv_k_subrscript2">1PM-4PM</string>
+    <string name="reserv_k_subrscript3">2PM-4PM</string>
+    <string name="reserv_k_subrscript4">4 Hours</string>
+    <string name="reserv_k_subrscript5">1 DAY</string>
+    <string name="reserv_k_subrscript6">2 DAYS</string>
+    <string name="reserv_k_subrscript7">3 DAYS</string>
+    <string name="reserv_k_subrscript8">4 DAYS</string>
+    <string name="reserv_k_subrscript9">5 DAYS</string>
+    <string name="reserv_k_subrscript10">6 DAYS</string>
+    <string name="reserv_k_subrscript11">10 DAYS</string>
+    <string name="reserv_k_subrscript12">20 Hours</string>
+
+    <string name="reserv_ad_pass1">10 POINTS</string>
+    <string name="reserv_ad_pass2">20 POINTS</string>
+    <string name="reserv_ad_pass3">30 POINTS</string>
+    <string name="reserv_ad_pass4">60 POINTS</string>
+    <string name="reserv_ad_pass5">80 POINTS</string>
+    <string name="reserv_ad_pass6">120 POINTS</string>
+    <string name="reserv_ad_pass7">240 POINTS</string>
+    <string name="reserv_ad_pass8">Up</string>
+    <string name="reserv_ad_pass9">Up/Down</string>
+    <string name="reserv_ad_pass10">Down</string>
+
+    <string name="reserv_k_pass1">10 POINTS</string>
+    <string name="reserv_k_pass2">20 POINTS</string>
+    <string name="reserv_k_pass3">30 POINTS</string>
+    <string name="reserv_k_pass4">60 POINTS</string>
+    <string name="reserv_k_pass5">80 POINTS</string>
+    <string name="reserv_k_pass6">120 POINTS</string>
+    <string name="reserv_k_pass7">240 POINTS</string>
+    <string name="reserv_k_pass8">Up</string>
+    <string name="reserv_k_pass9">Up/Down</string>
+    <string name="reserv_k_pass10">Down</string>
+
+
+    <string-array name="points_spinner">
+        <item>10 POINTS</item>
+        <item>20 POINTS</item>
+        <item>30 POINTS</item>
+        <item>60 POINTS</item>
+        <item>80 POINTS</item>
+        <item>120 POINTS</item>
+        <item>240 POINTS</item>
+        <item>UP</item>
+        <item>UP/DOWN</item>
+        <item>DOWN</item>
+    </string-array>
+    <string name="points_button_add">Add</string>
+
+    <string name="points_spinner_text">Choose</string>
+
+    <string name="forgot_text">Please enter your Email and new password below:</string>
+
+</resources>

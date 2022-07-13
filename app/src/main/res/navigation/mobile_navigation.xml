@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.navbarlicenta.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_nav_home_to_nav_login"
+            app:destination="@id/nav_login" />
+        <action
+            android:id="@+id/action_nav_home_to_nav_signin2"
+            app:destination="@id/nav_register" />
+        <action
+            android:id="@+id/action_nav_home_to_nav_admin"
+            app:destination="@id/nav_admin" />
+        <action
+            android:id="@+id/action_nav_home_to_nav_forgot"
+            app:destination="@id/nav_forgot" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_forgot"
+        android:name="com.example.navbarlicenta.ui.forgotpass.ForgotPassFragment"
+        android:label="@string/menu_password"
+        tools:layout="@layout/fragment_forgot_pass" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_login"
+        android:name="com.example.navbarlicenta.ui.login.LoginFragment"
+        android:label="@string/menu_login"
+        tools:layout="@layout/fragment_login" />
+
+    <fragment
+        android:id="@+id/nav_register"
+        android:name="com.example.navbarlicenta.ui.register.RegisterFragment"
+        android:label="@string/menu_signup"
+        tools:layout="@layout/fragment_register" >
+        <action
+            android:id="@+id/action_nav_signin_to_nav_login"
+            app:destination="@id/nav_login" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/nav_rules"
+        android:name="com.example.navbarlicenta.ui.rules.RulesFragment"
+        android:label="@string/menu_rules"
+        tools:layout="@layout/fragment_rules" />
+
+
+
+    <fragment
+        android:id="@+id/nav_slopes"
+        android:name="com.example.navbarlicenta.ui.slopes.SlopesFragment"
+        android:label="@string/menu_slopes"
+        android:layout="@layout/fragment_slopes" />
+
+    <fragment
+        android:id="@+id/nav_chairlifts"
+        android:name="com.example.navbarlicenta.ui.chairlifts.ChairliftsFragment"
+        android:label="@string/menu_chairlifts"
+        android:layout="@layout/fragment_chairlifts" />
+
+    <fragment
+        android:id="@+id/nav_admin"
+        android:name="com.example.navbarlicenta.ui.admin.AdminFragment"
+        android:label="@string/menu_admin"
+        android:layout="@layout/fragment_admin" />
+
+    <fragment
+        android:id="@+id/nav_passes"
+        android:name="com.example.navbarlicenta.ui.passes.PassesFragment"
+        android:label="@string/menu_passes"
+        android:layout="@layout/fragment_passes" >
+        <action
+            android:id="@+id/action_nav_passes_to_nav_home"
+            app:destination="@id/nav_home" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_rentals"
+        android:name="com.example.navbarlicenta.ui.rentals.RentalsFragment"
+        android:label="@string/menu_rentals"
+        android:layout="@layout/fragment_rentals" />
+
+    <fragment
+        android:id="@+id/nav_hotels"
+        android:name="com.example.navbarlicenta.ui.hotels.HotelsFragment"
+        android:label="@string/menu_hotels"
+        android:layout="@layout/fragment_hotels" />
+
+
+
+</navigation>

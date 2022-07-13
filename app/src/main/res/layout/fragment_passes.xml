@@ -1,0 +1,1059 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android2="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/passes_fundal_opac"
+    tools:context=".ui.passes.PassesFragment">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="47dp">
+
+                <TextView
+                    android:id="@+id/text_passes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="126dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginEnd="127dp"
+                    android:fontFamily="@font/roboto_mono_thin"
+                    android:text="@string/passes_subscriptions"
+                    android:textColor="@color/black"
+                    android:textSize="26sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="403dp"
+                android:layout_margin="1dp">
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="351dp"
+
+                    android:layout_marginStart="4dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="4dp"
+                    android:background="@color/black"
+                    android:padding="5dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="34dp"
+                        android:layout_margin="1dp"
+                        android:background="@color/white">
+
+                        <TextView
+                            android:id="@+id/textView01"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:fontFamily="monospace"
+                            android:text="@string/passes_col_cardType"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView02"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:fontFamily="monospace"
+                            android:text="@string/passes_col_Adults"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView03"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:fontFamily="monospace"
+                            android:text="@string/passes_col_kids"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/tablerow"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="1dp"
+                        android:background="@color/white"
+                        android:fontFamily="monospace">
+
+                        <TextView
+                            android:id="@+id/tr11"
+                            android:layout_width="146dp"
+                            android:layout_height="match_parent"
+                            android:fontFamily="monospace"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="@string/passes_row11" />
+
+
+                        <TextView
+                            android:id="@+id/tr12"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:fontFamily="monospace"
+                            android:gravity="center"
+                            android:text="@string/passes_row12" />
+
+                        <TextView
+                            android:id="@+id/tr13"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:fontFamily="monospace"
+                            android:gravity="center"
+                            android:text="@string/passes_row13" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="1dp"
+                        android:background="@color/white">
+
+                        <TextView
+                            android:id="@+id/tr21"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:fontFamily="monospace"
+                            android:gravity="center"
+                            android:text="@string/passes_row21" />
+
+                        <TextView
+                            android:id="@+id/tr22"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:fontFamily="monospace"
+                            android:gravity="center"
+                            android:text="@string/passes_row22" />
+
+                        <TextView
+                            android:id="@+id/tr23"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:fontFamily="monospace"
+                            android:gravity="center"
+                            android:text="@string/passes_row23" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="1dp"
+                        android:background="@color/white">
+
+                        <TextView
+                            android:id="@+id/tr31"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:fontFamily="monospace"
+                            android:gravity="center"
+                            android:text="@string/passes_row31" />
+
+                        <TextView
+                            android:id="@+id/tr32"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:fontFamily="monospace"
+                            android:gravity="center"
+                            android:text="@string/passes_row32" />
+
+                        <TextView
+                            android:id="@+id/tr33"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:fontFamily="monospace"
+                            android:gravity="center"
+                            android:text="@string/passes_row33" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="1dp"
+                        android:background="@color/white">
+
+                        <TextView
+                            android:id="@+id/tr41"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:fontFamily="monospace"
+                            android:gravity="center"
+                            android:text="@string/passes_row41" />
+
+                        <TextView
+                            android:id="@+id/tr42"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:fontFamily="monospace"
+                            android:gravity="center"
+                            android:text="@string/passes_row42" />
+
+                        <TextView
+                            android:id="@+id/tr43"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:fontFamily="monospace"
+                            android:gravity="center"
+                            android:text="@string/passes_row43" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="1dp"
+                        android:background="@color/white">
+
+                        <TextView
+                            android:id="@+id/tr51"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:fontFamily="monospace"
+                            android:gravity="center"
+                            android:text="@string/passes_row51" />
+
+                        <TextView
+                            android:id="@+id/tr52"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:fontFamily="monospace"
+                            android:gravity="center"
+                            android:text="@string/passes_row52" />
+
+                        <TextView
+                            android:id="@+id/tr53"
+                            android:layout_width="match_parent"
+                            android:layout_weight="1"
+                            android:layout_height="match_parent"
+                            android:fontFamily="monospace"
+                            android:gravity="center"
+                            android:text="@string/passes_row53" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="1dp"
+                        android:background="@color/white"
+                        android:fontFamily="monospace">
+
+                        <TextView
+                            android:id="@+id/tr61"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:fontFamily="monospace"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="@string/passes_row61" />
+
+                        <TextView
+                            android:id="@+id/tr62"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:fontFamily="monospace"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="@string/passes_row62" />
+
+                        <TextView
+                            android:id="@+id/tr63"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:fontFamily="monospace"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="@string/passes_row63" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="1dp"
+                        android:background="@color/white">
+
+                        <TextView
+                            android:id="@+id/tr71"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:fontFamily="monospace"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="@string/passes_row71" />
+
+                        <TextView
+                            android:id="@+id/tr72"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:layout_weight="1"
+                            android:text="@string/passes_row72" />
+
+                        <TextView
+                            android:id="@+id/tr73"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:fontFamily="monospace"
+                            android:gravity="center"
+                            android:text="@string/passes_row73" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="1dp"
+                        android:background="@color/white"
+                        android:fontFamily="monospace">
+
+                        <TextView
+                            android:id="@+id/textView66"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:fontFamily="monospace"
+                            android:gravity="center"
+                            android:text="@string/passes_row81" />
+
+                        <TextView
+                            android:id="@+id/textView67"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:fontFamily="monospace"
+                            android:gravity="center"
+                            android:text="@string/passes_row82" />
+
+                        <TextView
+                            android:id="@+id/textView68"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:fontFamily="monospace"
+                            android:gravity="center"
+                            android:text="@string/passes_row83" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="1dp"
+                        android:background="@color/white">
+
+                        <TextView
+                            android:id="@+id/textView69"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:fontFamily="monospace"
+                            android:gravity="center"
+                            android:text="@string/passes_row91" />
+
+                        <TextView
+                            android:id="@+id/textView70"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:fontFamily="monospace"
+                            android:gravity="center"
+                            android:text="@string/passes_row92" />
+
+                        <TextView
+                            android:id="@+id/textView71"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:fontFamily="monospace"
+                            android:gravity="center"
+                            android:text="@string/passes_row93" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="1dp"
+                        android:background="@color/white">
+
+                        <TextView
+                            android:id="@+id/textView72"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:fontFamily="monospace"
+                            android:gravity="center"
+                            android:text="@string/passes_row101" />
+
+                        <TextView
+                            android:id="@+id/textView73"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:fontFamily="monospace"
+                            android:gravity="center"
+                            android:text="@string/passes_row102" />
+
+                        <TextView
+                            android:id="@+id/textView74"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:fontFamily="monospace"
+                            android:gravity="center"
+                            android:text="@string/passes_row103" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="1dp"
+                        android:background="@color/white">
+
+                        <TextView
+                            android:id="@+id/textView77"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:fontFamily="monospace"
+                            android:gravity="center"
+                            android:text="@string/passes_row111" />
+
+                        <TextView
+                            android:id="@+id/textView75"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:fontFamily="monospace"
+                            android:gravity="center"
+                            android:text="@string/passes_row112" />
+
+                        <TextView
+                            android:id="@+id/textView76"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:fontFamily="monospace"
+                            android:gravity="center"
+                            android:text="@string/passes_row113" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="25sp"
+                        android:layout_margin="1dp"
+                        android:background="@color/white">
+
+                        <TextView
+                            android:id="@+id/textView80"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:fontFamily="monospace"
+                            android:gravity="center"
+                            android:text="@string/passes_row121" />
+
+                        <TextView
+                            android:id="@+id/textView79"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:fontFamily="monospace"
+                            android:gravity="center"
+                            android:text="@string/passes_row122" />
+
+                        <TextView
+                            android:id="@+id/textView78"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:fontFamily="monospace"
+                            android:gravity="center"
+                            android:text="@string/passes_row123" />
+                    </TableRow>
+                </TableLayout>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="47dp">
+
+                <TextView
+                    android:id="@+id/textView83"
+                    android:layout_width="match_parent"
+                    android:layout_height="31dp"
+                    android:layout_marginStart="126dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginEnd="127dp"
+                    android:fontFamily="@font/roboto_mono_thin"
+                    android:text="@string/passes_points"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="26sp"
+
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp"/>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="252dp">
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="262dp"
+                    android:layout_marginStart="4dp"
+
+                    android:layout_marginTop="1dp"
+                    android:layout_marginEnd="4dp"
+                    android:background="@color/black"
+                    android:padding="5dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dp"
+
+                        android:background="@color/white">
+
+                        <TextView
+                            android:id="@+id/textView84"
+                            android:layout_width="wrap_content"
+                            android:layout_height="35dp"
+                            android:layout_weight="1"
+                            android:text="@string/passes_col_cardType"
+                            android:textStyle="bold"
+                            android:textAlignment="center"
+                            android:fontFamily="monospace"
+                            android:textColor="@color/black"
+                             />
+
+                        <TextView
+                            android:id="@+id/textView85"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:text="@string/passes_col_Adults"
+                            android:textStyle="bold"
+                            android:fontFamily="monospace"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                             />
+
+                        <TextView
+                            android:id="@+id/textView86"
+                            android:layout_width="wrap_content"
+                            android:layout_height="35dp"
+                            android:layout_weight="1"
+                            android:text="@string/passes_col_kids"
+                            android:fontFamily="monospace"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textStyle="bold"/>
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+
+                        android:layout_margin="1dp"
+                        android:background="@color/white">
+
+                        <TextView
+                            android:id="@+id/textView87"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:fontFamily="monospace"
+                            android:gravity="center"
+                            android:text="@string/passes2_row11" />
+
+                        <TextView
+                            android:id="@+id/textView88"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:fontFamily="monospace"
+                            android:text="@string/passes2_row12"
+                            android:textAlignment="center" />
+
+                        <TextView
+                            android:id="@+id/textView89"
+                            android:layout_width="70dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:fontFamily="monospace"
+                            android:text="@string/passes2_row13"
+                            android:textAlignment="center" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="1dp"
+
+                        android:background="@color/white">
+
+                        <TextView
+                            android:id="@+id/textView90"
+                            android:layout_width="wrap_content"
+                            android:layout_height="25dp"
+                            android:layout_weight="1"
+                            android:fontFamily="monospace"
+                            android:gravity="center"
+                            android:text="@string/passes2_row21" />
+
+                        <TextView
+                            android:id="@+id/textView91"
+                            android:layout_width="wrap_content"
+                            android:layout_height="25dp"
+                            android:layout_weight="1"
+                            android:fontFamily="monospace"
+                            android:text="@string/passes2_row22"
+                            android:textAlignment="center" />
+
+                        <TextView
+                            android:id="@+id/textView92"
+                            android:layout_width="wrap_content"
+                            android:layout_height="25dp"
+                            android:layout_weight="1"
+                            android:fontFamily="monospace"
+                            android:text="@string/passes2_row23"
+                            android:textAlignment="center" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="1dp"
+
+                        android:background="@color/white">
+
+                        <TextView
+                            android:id="@+id/textView93"
+                            android:layout_width="wrap_content"
+                            android:layout_height="25dp"
+                            android:layout_weight="1"
+                            android:fontFamily="monospace"
+                            android:gravity="center"
+                            android:text="@string/passes2_row31" />
+
+                        <TextView
+                            android:id="@+id/textView94"
+                            android:layout_width="wrap_content"
+                            android:layout_height="25dp"
+                            android:layout_weight="1"
+                            android:fontFamily="monospace"
+                            android:text="@string/passes2_row32"
+                            android:textAlignment="center" />
+
+                        <TextView
+                            android:id="@+id/textView95"
+                            android:layout_width="wrap_content"
+                            android:layout_height="25dp"
+                            android:layout_weight="1"
+                            android:fontFamily="monospace"
+                            android:text="@string/passes2_row33"
+                            android:textAlignment="center" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="1dp"
+
+                        android:background="@color/white">
+
+                        <TextView
+                            android:id="@+id/textView96"
+                            android:layout_width="wrap_content"
+                            android:layout_height="25dp"
+                            android:layout_weight="1"
+                            android:fontFamily="monospace"
+                            android:gravity="center"
+                            android:text="@string/passes2_row41" />
+
+                        <TextView
+                            android:id="@+id/textView97"
+                            android:layout_width="wrap_content"
+                            android:layout_height="25dp"
+                            android:layout_weight="1"
+                            android:fontFamily="monospace"
+                            android:text="@string/passes2_row42"
+                            android:textAlignment="center" />
+
+                        <TextView
+                            android:id="@+id/textView98"
+                            android:layout_width="wrap_content"
+                            android:layout_height="25dp"
+                            android:layout_weight="1"
+                            android:fontFamily="monospace"
+                            android:text="@string/passes2_row43"
+                            android:textAlignment="center" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="1dp"
+                        android:fontFamily="monospace"
+                        android:background="@color/white">
+
+                        <TextView
+                            android:id="@+id/textView99"
+                            android:layout_width="wrap_content"
+                            android:layout_height="25dp"
+                            android:layout_weight="1"
+                            android:fontFamily="monospace"
+                            android:gravity="center"
+                            android:text="@string/passes2_row51" />
+
+                        <TextView
+                            android:id="@+id/textView100"
+                            android:layout_width="wrap_content"
+                            android:layout_height="25dp"
+                            android:layout_weight="1"
+                            android:fontFamily="monospace"
+                            android:text="@string/passes2_row52"
+                            android:textAlignment="center" />
+
+                        <TextView
+                            android:id="@+id/textView101"
+                            android:layout_width="wrap_content"
+                            android:layout_height="25dp"
+                            android:layout_weight="1"
+                            android:fontFamily="monospace"
+                            android:text="@string/passes2_row53"
+                            android:textAlignment="center" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="1dp"
+
+                        android:background="@color/white">
+
+                        <TextView
+                            android:id="@+id/textView102"
+                            android:layout_width="wrap_content"
+                            android:layout_height="25dp"
+                            android:layout_weight="1"
+                            android:fontFamily="monospace"
+                            android:gravity="center"
+                            android:text="@string/passes2_row61" />
+
+                        <TextView
+                            android:id="@+id/textView103"
+                            android:layout_width="wrap_content"
+                            android:layout_height="25dp"
+                            android:layout_weight="1"
+                            android:fontFamily="monospace"
+                            android:text="@string/passes2_row62"
+                            android:textAlignment="center" />
+
+                        <TextView
+                            android:id="@+id/textView104"
+                            android:layout_width="wrap_content"
+                            android:layout_height="25dp"
+                            android:layout_weight="1"
+                            android:fontFamily="monospace"
+                            android:text="@string/passes2_row63"
+                            android:textAlignment="center" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="1dp"
+
+                        android:background="@color/white">
+
+                        <TextView
+                            android:id="@+id/textView105"
+                            android:layout_width="wrap_content"
+                            android:layout_height="25dp"
+                            android:layout_weight="1"
+                            android:fontFamily="monospace"
+                            android:gravity="center"
+                            android:text="@string/passes2_row71" />
+
+                        <TextView
+                            android:id="@+id/textView106"
+                            android:layout_width="wrap_content"
+                            android:layout_height="25dp"
+                            android:layout_weight="1"
+                            android:fontFamily="monospace"
+                            android:text="@string/passes2_row72"
+                            android:textAlignment="center" />
+
+                        <TextView
+                            android:id="@+id/textView107"
+                            android:layout_width="wrap_content"
+                            android:layout_height="25dp"
+                            android:layout_weight="1"
+                            android:fontFamily="monospace"
+                            android:text="@string/passes2_row73"
+                            android:textAlignment="center" />
+
+                    </TableRow>
+                </TableLayout>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="11dp" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView108"
+                    android:layout_width="190dp"
+                    android:layout_height="31dp"
+                    android:layout_marginStart="126dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginEnd="127dp"
+                    android:fontFamily="@font/roboto_mono_thin"
+                    android:text="@string/passes_cablecar"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:textSize="26sp"
+                    android:textColor="@color/black"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="152dp">
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginEnd="4dp"
+                    android:background="@color/black"
+                    android:padding="5dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="1dp"
+                        android:textStyle="bold"
+                        android:background="@color/white">
+
+                        <TextView
+                            android:id="@+id/textView110"
+                            android:layout_width="wrap_content"
+                            android:layout_height="35dp"
+                            android:layout_weight="1"
+                            android:text="@string/passes_col_cardType"
+                            android:textAlignment="center"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"
+                             />
+
+                        <TextView
+                            android:id="@+id/textView111"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:text="@string/passes_col_Adults"
+                            android:textStyle="bold"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                             />
+
+                        <TextView
+                            android:id="@+id/textView112"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:text="@string/passes_col_kids"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                             />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="1dp"
+
+                        android:background="@color/white">
+
+                        <TextView
+                            android:id="@+id/textView114"
+                            android:layout_width="wrap_content"
+                            android:layout_height="25dp"
+
+                            android:layout_weight="1"
+                            android:text="@string/passes3_row11" />
+
+                        <TextView
+                            android:id="@+id/textView115"
+                            android:layout_width="wrap_content"
+                            android:layout_height="25dp"
+                            android:layout_weight="1"
+
+                            android:text="@string/passes3_row12"
+                            android:textAlignment="center" />
+
+                        <TextView
+                            android:id="@+id/textView116"
+                            android:layout_width="wrap_content"
+                            android:layout_height="25dp"
+
+                            android:layout_weight="1"
+                            android:text="@string/passes3_row13"
+                            android:textAlignment="center" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="1dp"
+
+                        android:background="@color/white">
+
+                        <TextView
+                            android:id="@+id/textView117"
+                            android:layout_width="wrap_content"
+                            android:layout_weight="1"
+                            android:layout_height="25dp"
+                            android:text="@string/passes3_row21" />
+
+                        <TextView
+                            android:id="@+id/textView118"
+                            android:layout_width="wrap_content"
+                            android:layout_height="25dp"
+                            android:layout_weight="1"
+                            android:text="@string/passes3_row22"
+                            android:textAlignment="center" />
+
+                        <TextView
+                            android:id="@+id/textView119"
+                            android:layout_width="wrap_content"
+                            android:layout_height="25dp"
+                            android:layout_weight="1"
+                            android:text="@string/passes3_row23"
+                            android:textAlignment="center" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="1dp"
+
+                        android:background="@color/white">
+
+                        <TextView
+                            android:id="@+id/textView120"
+                            android:layout_width="wrap_content"
+                            android:layout_height="25dp"
+                            android:layout_weight="1"
+                            android:text="@string/passes3_row31" />
+
+                        <TextView
+                            android:id="@+id/textView121"
+                            android:layout_width="wrap_content"
+                            android:layout_height="25dp"
+                            android:layout_weight="1"
+                            android:text="@string/passes3_row32"
+                            android:textAlignment="center" />
+
+                        <TextView
+                            android:id="@+id/textView122"
+                            android:layout_width="wrap_content"
+                            android:layout_height="25dp"
+                            android:layout_weight="1"
+                            android:text="@string/passes3_row33"
+                            android:textAlignment="center" />
+                    </TableRow>
+                </TableLayout>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="39dp">
+
+                <TextView
+                    android:id="@+id/passes_button_points"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:text="@string/reserv_text4"
+                    android:textAlignment="textEnd"
+                    android:textSize="20dp"
+                    android:textColor="@color/black"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
